@@ -244,7 +244,7 @@ body::after {
     align-items: center;
 }
 
-.hero .container {
+.hero-row {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 60px;
@@ -916,7 +916,7 @@ kbd {
 
 /* Responsive */
 @media (max-width: 1024px) {
-    .hero .container {
+    .hero-row {
         grid-template-columns: 1fr;
         text-align: center;
     }
