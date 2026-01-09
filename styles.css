@@ -285,13 +285,13 @@ body::after {
     align-items: center;
     justify-content: center;
     gap: 48px;
+    margin-top: 24px;
     margin-bottom: 32px;
-    padding: 10px 48px;
+    padding: 10px 32px;
     background: var(--bg-card);
     border-radius: 8px;
     border: 1px solid var(--border);
-    width: 100%;
-    max-width: 480px;
+    width: fit-content;
 }
 
 .stat {
