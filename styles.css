@@ -266,6 +266,13 @@ body::after {
 .hero-subtitle {
     font-size: 1.1rem;
     color: var(--text-secondary);
+    margin-bottom: 6px;
+    max-width: 480px;
+}
+
+.hero-subtitle-small {
+    font-size: 0.95rem;
+    color: var(--text-muted);
     margin-bottom: 24px;
     max-width: 480px;
 }
@@ -940,7 +947,8 @@ kbd {
         text-align: center;
     }
 
-    .hero-subtitle {
+    .hero-subtitle,
+    .hero-subtitle-small {
         margin-left: auto;
         margin-right: auto;
     }
@@ -990,13 +998,19 @@ kbd {
         height: auto;
     }
 
+    .hero-subtitle,
+    .hero-subtitle-small {
+        text-align: justify;
+        max-width: 100%;
+    }
+
     .hero-content h1 {
         font-size: 2.5rem;
     }
 
     .transcription-demo {
         max-width: 320px;
-        height: 240px;
+        height: 100px;
     }
 
     .text-ribbon {
@@ -1030,6 +1044,7 @@ kbd {
  .speed-stats {
        padding: 6px;
     width: 100%;
+        margin-bottom: 6px;
     }
     body::before {
         background-image:
