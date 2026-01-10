@@ -480,6 +480,8 @@ body::after {
 .features {
     padding: 100px 0;
     background: transparent;
+    content-visibility: auto;
+    contain-intrinsic-size: auto 800px;
 }
 
 .section-title {
@@ -553,6 +555,8 @@ body::after {
 /* How it works */
 .how-it-works {
     padding: 100px 0;
+    content-visibility: auto;
+    contain-intrinsic-size: auto 600px;
 }
 
 .steps {
@@ -685,6 +689,8 @@ kbd {
 /* Pricing */
 .pricing {
     padding: 100px 0;
+    content-visibility: auto;
+    contain-intrinsic-size: auto 700px;
 }
 
 .pricing-grid {
@@ -791,6 +797,8 @@ kbd {
 /* Download */
 .download {
     padding: 100px 0;
+    content-visibility: auto;
+    contain-intrinsic-size: auto 500px;
 }
 
 .download-card {
