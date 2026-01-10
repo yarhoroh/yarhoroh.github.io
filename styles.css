@@ -965,6 +965,19 @@ kbd {
         display: none;
     }
 
+    .hero {
+        padding: 100px 0 40px;
+        min-height: auto;
+    }
+
+    .text-ribbon {
+        display: none;
+    }
+
+    .transcription-demo {
+        height: auto;
+    }
+
     .hero-content h1 {
         font-size: 2.5rem;
     }
@@ -1002,7 +1015,10 @@ kbd {
     .download-card {
         padding: 40px 24px;
     }
-
+ .speed-stats {
+       padding: 6px;
+    width: 100%;
+    }
     body::before {
         background-image:
             /* Soundwave curves */
