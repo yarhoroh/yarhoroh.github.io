@@ -1103,6 +1103,10 @@ kbd {
         font-size: 2.5rem;
     }
 
+    .features {
+        padding: 0;
+    }
+
     .transcription-demo {
         max-width: 320px;
         height: 100px;
